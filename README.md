@@ -8,3 +8,5 @@ The machine is remotely controlled with a ps3 controller, so when the “X” bu
 
 
 The Spray Paint machine is powered with a 9V  adapter 
+
+https://youtu.be/zP4An39l2bM
