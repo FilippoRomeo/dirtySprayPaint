@@ -1,10 +1,27 @@
-# dirtySprayPaint
+# Dirty Spray Paint
 
-The scope of the machine is to dirty spray paint.
+A remote-controlled physical-computing machine built to spray paint through a motorised pan-tilt mechanism.
 
-The Spray Paint machine to spray paint uses a solenoid [5] to control the airflow coming through the air compressor [4]. A tube connects the solenoid (air compressor) to a pressurize buck paint; the other cavity of the bucket has a tube connected to a nuzzle mounted on top of the pan-tilt [2] mechanism, positioned on the tripod [6]. The pan-tilt has a laser to aid the user’s aim [3].
+## System
 
-It is remotely controlled with a joystick; the “X” button allows the air to circulate through the solenoid, usually in a close position; the air goes through the pipe and fills the pressurized bucket. The air compresses inside the bucket push the paint to the other cavity connected to the pan/tilt. The pan/tilt, positioned on top of the tripod, is controlled with the analogue thumbsticks (L3).
-The Spray Paint machine is powered with a 9V adapter.
+The machine combines:
 
-https://youtu.be/zP4An39l2bM
+- an air compressor;
+- a normally closed solenoid valve controlling airflow;
+- a pressurised paint container;
+- tubing between the compressor, paint container, and nozzle;
+- a pan-tilt mechanism mounted on a tripod;
+- a laser for aiming;
+- joystick control for pan and tilt movement and spray activation.
+
+Pressing the controller button opens the solenoid, allowing compressed air to pressurise the paint container and push paint through the nozzle. The analogue sticks control the pan-tilt mechanism, allowing the operator to aim remotely.
+
+The system is powered from a 9V adapter.
+
+## Demo
+
+[Watch the machine in operation](https://youtu.be/zP4An39l2bM)
+
+## Context
+
+This project explores imperfect, mechanical image-making through physical computing, combining simple robotics, pneumatic control, and manual interaction rather than treating the machine as a precision plotter.
